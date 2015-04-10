@@ -17,7 +17,6 @@ public class Faktorial {
     public Faktorial(){
         
     }
-    
     public static void main(String[] args) throws Exception{
         Scanner input = new Scanner(System.in);
         System.out.println("input angka :");
@@ -25,8 +24,8 @@ public class Faktorial {
         int b=1;
         if(inp>0){
             for(int i=1;i<inp;i++)
-            b=b*(inp-i);
-            b=b*inp;
+            b=b+(inp-i);
+            b=b+inp;
         }
         else
             b=1;
